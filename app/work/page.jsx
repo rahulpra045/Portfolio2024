@@ -18,7 +18,8 @@ const projects = [
         num: "01",
         category: "frontend",
         title: "prject 1",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
+        description:
+            "Built a React.js application using TMDB APIs for browsing movies, TV shows, and trending content. Integrated Firebase for user authentication with Google sign-in and account management. Implemented a watchlist feature and light/dark mode for enhanced user experience and responsive UI design.",
         stack: [
             {
                 name: "React.js"
@@ -33,38 +34,41 @@ const projects = [
                 name: "Javascript"
             },
         ],
-        image: "/assets/work/thumb1.png",
-        live: "",
-        github: "",
+        image: "/assets/work/thumb1_optimized.png",
+        live: "https://m0vies-library.netlify.app/",
+        github: "https://github.com/rahulpra045/Movie-Library",
     },
 
     {
         num: "02",
         category: "Blockchain",
         title: "prject 2",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
+        description: "Developed a React application integrating with Uniswap, enabling Metamask pairing for seamless transactions. Implemented live fetching of smart contract data and empowered users to create ERC20 tokens within the platform, facilitating token swaps and decentralized trading.",
         stack: [
             {
-                name: "Next.js"
+                name: "React.js"
             },
             {
-                name: "Tailwind.css"
+                name: "Metamask"
             },
             {
-                name: "Node.js"
+                name: "Web3.js"
+            },
+            {
+                name: "Ether.js"
             },
             
         ],
-        image: "/assets/work/thumb2.png",
-        live: "",
-        github: "",
+        image: "/assets/work/thumb2_optimized.png",
+        live: "https://krypt0-web3.netlify.app/",
+        github: "https://github.com/rahulpra045/Krypt-Web3",
     },
 
     {
         num: "03",
         category: "frontend",
         title: "prject 3",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
+        description: "Developed a weather application using React.js, allowing users to search for weather information for up to four cities simultaneously. Integrated WeatherAPI to fetch and display detailed weather data, enhancing user experience with real-time weather updates.",
         stack: [
             {
                 name: "React.js"
@@ -72,10 +76,33 @@ const projects = [
             {
                 name: "Javascript"
             },
+            {
+                name: "Weather Api"
+            },
         ],
-        image: "/assets/work/thumb3.png",
-        live: "",
-        github: "",
+        image: "/assets/work/thumb31_optimized.png",
+        live: "https://github.com/rahulpra045/Weather-Application",
+        github: "https://github.com/rahulpra045/Weather-Application",
+    },
+    {
+        num: "04",
+        category: "frontend",
+        title: "prject 4",
+        description: "Created a simple and engaging frontend application using React.js, featuring a search functionality that allows users to find their favorite monsters. The clean and responsive design ensures a smooth user interaction, making it easy to search and explore various monsters.",
+        stack: [
+            {
+                name: "React.js"
+            },
+            {
+                name: "Javascript"
+            },
+            {
+                name: "Html"
+            },
+        ],
+        image: "/assets/work/thumb4.png",
+        live: "https://rahulpra045.github.io/monsters-rolodex/",
+        github: "https://github.com/rahulpra045/monsters-rolodex",
     },
 ];
 
@@ -130,7 +157,7 @@ const Work = () => {
                             <div className="flex items-center gap-4">
                                 {/* live project button */}
 
-                                <Link href={project.live}>
+                                <Link href={project.live} target="_blank" rel="noopener noreferrer">
                                     <TooltipProvider delayDuration={100}>
                                         <Tooltip>
                                             <TooltipTrigger className="w-[70px] h-[70px] rounded-full bg-white/5 flex justify-center items-center group">
@@ -145,7 +172,7 @@ const Work = () => {
 
                                 {/* github project button */}
 
-                                <Link href={project.github}>
+                                <Link href={project.github} target="_blank" rel="noopener noreferrer">
                                     <TooltipProvider delayDuration={100}>
                                         <Tooltip>
                                             <TooltipTrigger className="w-[70px] h-[70px] rounded-full bg-white/5 flex justify-center items-center group">

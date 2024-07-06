@@ -8,28 +8,28 @@ const services = [
     num: "01",
     title: "Web Development",
     description:
-      "Lorem ipsum dolor sit amet consectetur,reprehenderit commodi earum dolorem.",
+      "Offering full-stack web development services, including responsive design, interactive UIs, and backend integration. Specializing in React.js, Node.js, and modern web technologies to build scalable and efficient web applications.",
     href: "",
   },
   {
     num: "02",
     title: "Blockchain Development",
     description:
-      "Lorem ipsum dolor sit amet consectetur,reprehenderit commodi earum dolorem.",
+      "Providing end-to-end blockchain development services, including smart contract creation, DApp development, and token integration. Specializing in Ethereum, Solidity, and Web3.js to build secure and decentralized applications.",
     href: "",
   },
   {
     num: "03",
     title: "UI/UX Design",
     description:
-      "Lorem ipsum dolor sit amet consectetur,reprehenderit commodi earum dolorem.",
+      "Delivering intuitive and engaging UI/UX design services, focusing on user-centered design principles. Specializing in creating visually appealing and user-friendly interfaces that enhance user experience and drive engagement.",
     href: "",
   },
   {
     num: "04",
     title: "Software Development",
     description:
-      "Lorem ipsum dolor sit amet consectetur,reprehenderit commodi earum dolorem.",
+    "Providing comprehensive software development services, from requirements analysis to deployment. Specializing in building robust, scalable, and efficient software solutions tailored to meet client needs using modern development practices.",
     href: "",
   },
 ];
