@@ -34,7 +34,7 @@ const projects = [
                 name: "Javascript"
             },
         ],
-        image: "/assets/work/thumb1_optimized.png",
+        image: "/assets/work/thumb1.png",
         live: "https://m0vies-library.netlify.app/",
         github: "https://github.com/rahulpra045/Movie-Library",
     },
@@ -59,7 +59,7 @@ const projects = [
             },
             
         ],
-        image: "/assets/work/thumb2_optimized.png",
+        image: "/assets/work/thumb2.png",
         live: "https://krypt0-web3.netlify.app/",
         github: "https://github.com/rahulpra045/Krypt-Web3",
     },
@@ -80,7 +80,7 @@ const projects = [
                 name: "Weather Api"
             },
         ],
-        image: "/assets/work/thumb31_optimized.png",
+        image: "/assets/work/thumb3.png",
         live: "https://github.com/rahulpra045/Weather-Application",
         github: "https://github.com/rahulpra045/Weather-Application",
     },

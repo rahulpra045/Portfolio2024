@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 import { FiDownload } from "react-icons/fi";
 
 const Home = () => {
-  const downloadLink = 'https://drive.google.com/file/d/1RPh_F0GnmCmg7mWpndOor7gjHtLfQlFl/view?usp=drive_link';
+  const downloadLink = 'https://drive.google.com/file/d/102Tkx6oM-ncKOtKoKy3v5gWTV3kVD04p/view?usp=sharing';
   return (
     <section className="h-full">
       <div className="container mx-auto h-full">
