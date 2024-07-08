@@ -19,7 +19,7 @@ In this portfolio, visitors can see:
 
 ## Prerequisites
 
-- You must have Next.js and npm or yarn installed on your system. 
+- You must have Node.js and npm or yarn installed on your system. 
 - You should have some understanding of React and frontend development.
 
 ## Installation
