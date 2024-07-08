@@ -26,7 +26,7 @@ In this portfolio, visitors can see:
 
 1. Clone this repository to your local machine:
     ```shell
-    git clone https://github.com/your-username/your-repo-name.git
+    git clone https://github.com/rahulpra045/Portfolio2024
     ```
 2. Open a terminal window and navigate to the project directory.
 3. Install the required dependencies by running:
